@@ -50,6 +50,7 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={reminder} alt="" className="img-fluid"/>
                       </div>
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -60,12 +61,11 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                              <a href="">Github</a>
+                              <a target="_blank" href="https://github.com/thehardikchaturvedi/reminder-cli-golang">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                       <a href={reminder1} data-lightbox="gallery-reminder" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                   </div>
                 </div>
@@ -75,6 +75,7 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={netflix} alt="" className="img-fluid"/>
                       </div>
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -85,13 +86,12 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                            <a href="https://netflixapp.vercel.app">Demo</a>
-                            <a href="https://github.com/thehardikchaturvedi/netflix-clone">Github</a>
+                            <a target="_blank" href="https://netflixapp.vercel.app">Demo</a>
+                            <a target="_blank" href="https://github.com/thehardikchaturvedi/netflix-clone">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                       <a href={netflix1} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                       <a href={netflix2} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                       <a href={netflix3} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
@@ -106,6 +106,7 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={amazon} alt="" className="img-fluid"/>
                       </div>
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -116,14 +117,13 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                            <a href="https://thehardikchaturvedi.github.io/amazon-clone/">Demo</a>
+                            <a target="_blank" href="https://thehardikchaturvedi.github.io/amazon-clone/">Demo</a>
                             {/* <a href="https://challenge-c69ce.firebaseapp.com/">Demo</a> */}
-                            <a href="https://github.com/thehardikchaturvedi/amazon-clone">Github</a>
+                            <a target="_blank" href="https://github.com/thehardikchaturvedi/amazon-clone">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                       <a href={amazon1} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                       <a href={amazon2} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                       <a href={amazon3} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
@@ -135,6 +135,7 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={zoom1} alt="" className="img-fluid"/>
                       </div>
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -145,13 +146,12 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                            <a href="https://thawing-headland-23372.herokuapp.com">Demo</a>
-                            <a href="https://github.com/thehardikchaturvedi/zoom-clone">Github</a>
+                            <a target="_blank" href="https://thawing-headland-23372.herokuapp.com">Demo</a>
+                            <a target="_blank" href="https://github.com/thehardikchaturvedi/zoom-clone">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                       <a href={zoom} data-lightbox="gallery-vmarine" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                   </div>
                 </div>
@@ -161,6 +161,8 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={covid} alt="" className="img-fluid"/>
                       </div>
+                    
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -171,13 +173,12 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                                <a href="https://covid-19-tracker-1de38.web.app/">Demo</a>
-                            <a href="https://github.com/thehardikchaturvedi/covid19-tracker">Github</a>
+                                <a target="_blank" href="https://covid-19-tracker-1de38.web.app/">Demo</a>
+                            <a target="_blank" href="https://github.com/thehardikchaturvedi/covid19-tracker">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                                       </div>
                 </div>
                 <div className="col-md-4">
@@ -186,6 +187,7 @@ class Portfolio extends React.Component{
                       <div className="work-img">
                         <img src={portfolio} alt="" className="img-fluid"/>
                       </div>
+                      </a>
                       <div className="work-content">
                         <div className="row">
                           <div className="col-sm-8">
@@ -196,13 +198,12 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                            <a href="https://thehardikchaturvedi.github.io/portfolio">Demo</a>
-                            <a href="https://github.com/thehardikchaturvedi/portfolio">Github</a>
+                            <a target="_blank" href="https://thehardikchaturvedi.github.io/portfolio">Demo</a>
+                            <a target="_blank" href="https://github.com/thehardikchaturvedi/portfolio">Github</a>
                             </div>
                           </div>
                         </div>
                       </div>
-                      </a>
                       <a href={portfolio1} data-lightbox="gallery-portfolio" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                       <a href={portfolio2} data-lightbox="gallery-portfolio" style={{display: "none"}}>jsx-a11y/anchor-has-content warning</a>
                   </div>
