@@ -196,7 +196,7 @@ class Portfolio extends React.Component{
                           </div>
                           <div className="col-sm-4">
                             <div className="w-like">
-                            <a href="https:/thehardikchaturvedi.github.io/portfolio">Demo</a>
+                            <a href="https://thehardikchaturvedi.github.io/portfolio">Demo</a>
                             <a href="https://github.com/thehardikchaturvedi/portfolio">Github</a>
                             </div>
                           </div>
